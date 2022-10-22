@@ -1,0 +1,56 @@
+body {
+    background-color:  #00ffdc;
+}
+section{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.red,.blue, .green, .white{
+    border: none;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+}
+.red{
+    background: red;
+    color: white;
+
+}
+.blue{
+    background: #5b5be9;
+    color: white;
+
+}
+.green{
+    background: #5bb914;
+    color: white;
+
+}
+
+.white{
+    background: #ff7703;
+    color: white;
+
+}
+.number, .lost, .target, .win{
+    background-color: rgb(189 189 189);
+    padding: 25px 0px;
+}
+
+.number{
+    color: red;
+}
+
+.lost{
+    color: #5b5be9;
+}
+
+
+.target{
+    color: #5bb914;
+}
+
+.win{
+    color:  #ff7703;
+}
