@@ -3,7 +3,7 @@ body {
 }
 section{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .red,.blue, .green, .white{
@@ -11,26 +11,28 @@ section{
     padding: 20px 30px;
     margin-bottom: 30px;
     margin-right: 15px;
+    background-position: center;
+    padding: 45px 28px;
+    background-repeat: no-repeat;
+
+
 }
 .red{
-    background: red;
-    color: white;
+    background-image: url(images/red.png);
 
 }
 .blue{
-    background: #5b5be9;
-    color: white;
-
+    background-image: url(images/blue.png);
 }
 .green{
-    background: #5bb914;
-    color: white;
+    background-image: url(images/green.png);
+
 
 }
 
 .white{
-    background: #ff7703;
-    color: white;
+    background-image: url(images/yellow.png);
+
 
 }
 .number, .lost, .target, .win{
@@ -40,17 +42,25 @@ section{
 
 .number{
     color: red;
+    font-size: 25px;
+
 }
 
 .lost{
     color: #5b5be9;
+    font-size: 25px;
+
 }
 
 
 .target{
     color: #5bb914;
+    font-size: 25px;
+
 }
 
 .win{
     color:  #ff7703;
+    font-size: 25px;
+
 }
